@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:serif;
+}
+
+body {
+    height: 100%;
+    background: #123456;
+    color: white;
+    font-size: 25px;
+}
+
+.wrapper {
+    font-style: italic;
+    margin-top: 80px;
+}
+
+.image-block {
+    height: 350px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.carrousel-image {
+    display: none;
+    margin: auto;
+    max-height: 300px;
+}
+
+.carrousel-image.active {
+    display: block;
+}
+
+.controls {
+    margin-top: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.controls .control-unit {
+    padding: 0 70px;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    font-family:fantasy;
+}
